@@ -1,0 +1,29 @@
+.container{
+    align-items: center;
+    padding-top: 135px;
+}
+.text{
+    /* width: 30vw; */
+    padding-top: 150px;
+    text-align: center;
+}
+.image{
+  margin-left: 153px;
+    /* width: 40vw; */
+    text-align: center;
+    animation: MoveUpDown 2s ease-in-out infinite alternate-reverse both;
+    @keyframes moveupdown {
+        0% {
+            transform:translateY(-10px);
+        }
+        100%{
+            transform:translateY(10px);
+        }
+        
+    }
+   
+}
+p{
+    line-height: 1.5rem;
+    font-size: larger;
+}
